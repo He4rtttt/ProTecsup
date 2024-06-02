@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278507146212",
+    "project_id": "protecsup-9f4e5",
+    "storage_bucket": "protecsup-9f4e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278507146212:android:01aacda910dcc7223595f1",
+        "android_client_info": {
+          "package_name": "com.example.protecsup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjE237eG4OOWkLQFK0phoDNQAn7JXoV7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
