@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -13,51 +14,16 @@
 
         <TextView
             android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#5F97EC"
+            android:textSize="20sp"
             android:layout_height="wrap_content"
-            android:text="Nombre del estudiante:"/>
+            android:text="ID del salon:"/>
         <TextView
-            android:id="@+id/nombre"
+            android:id="@+id/id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nombre"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Apellido del estudiante:"/>
-        <TextView
-            android:id="@+id/apellido"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Apellido"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Correo del estudiante:"/>
-        <TextView
-            android:id="@+id/correo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Email"
+            android:text="1"
             android:layout_marginLeft="10dp"
             android:textColor="@color/black"
             android:textSize="18sp" />
@@ -71,17 +37,41 @@
 
         <TextView
             android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#5F97EC"
+            android:textSize="20sp"
             android:layout_height="wrap_content"
-            android:text="Telefono del estudiante:"/>
-
+            android:text="Numero del salon:"/>
         <TextView
-            android:id="@+id/telefono"
+            android:id="@+id/salon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:text="Phone"
+            android:text="A-203"
             android:layout_marginLeft="10dp"
-            android:textSize="16sp" />
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#5F97EC"
+            android:textSize="20sp"
+            android:text="Ubicacion del salon:"/>
+        <TextView
+            android:id="@+id/pabellon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pabellon A"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
@@ -93,40 +83,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Grupo del estudiante:"/>
+            android:textStyle="bold"
+            android:textColor="#5F97EC"
+            android:textSize="20sp"
+            android:text="Estado del salon:"/>
 
         <TextView
-            android:id="@+id/dni"
+            android:id="@+id/estado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="DNI"
+            android:text="Cerrado"
             android:layout_marginLeft="10dp"
-            android:textSize="16sp" />
+            android:textSize="18sp" />
 
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Ciclo del estudiante:"/>
-
-        <TextView
-            android:id="@+id/ciclo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:text="Ciclo"
-            android:layout_marginLeft="10dp"
-            android:textSize="16sp" />
-
-    </LinearLayout>
-
-
-
 </LinearLayout>
